@@ -7,7 +7,7 @@ from ssdb.exceptions import (AuthenticationError, ConnectionError,
                              PubSubError, SSDBError, ResponseError, WatchError)
 
 
-__version__ = '0.0.3'
+__version__ = '0.1'
 VERSION = tuple(map(int, __version__.split('.')))
 
 __all__ = ['SSDB', 'StrictSSDB', 'ConnectionPool', 'BlockingConnectionPool',
