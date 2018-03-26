@@ -1,4 +1,4 @@
-ssdb-py
+ssdb-py3 [forked from wrongwaycn/ssdb-py]
 =======
 
 The Python interface to the SSDB like Redis-py
@@ -11,7 +11,7 @@ To install ssdb-py, simply:
 
 .. code-block:: bash
 
-    $ sudo pip install ssdb
+    $ sudo pip install ssdb-py3
 
 or alternatively (you really should be using pip though):
 
